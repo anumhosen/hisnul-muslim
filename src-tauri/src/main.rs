@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    al_hadith_lib::run()
+    hisnul_muslim_lib::run()
 }
