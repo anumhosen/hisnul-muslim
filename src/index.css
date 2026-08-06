@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Kitab;
+    src: url("/fonts/kitab.ttf");
+}
+
+@font-face {
+    font-family: Kalpurush;
+    src: url("/fonts/Kalpurush.ttf");
+}
+
+@font-face {
+    font-family: AnekBangla;
+    src: url("/fonts/AnekBangla-Regular.ttf");
+}
+
+[lang="bn"] {
+    font-family: "Kalpurush", sans-serif;
+}
+
+[lang="ar"] {
+    font-family: "Kitab", sans-serif;
+}
+
+.dir-rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+.dir-ltr {
+    direction: ltr;
+    text-align: left;
+}
