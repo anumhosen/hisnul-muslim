@@ -1,10 +1,15 @@
 # 🕌 হিসনুল মুসলিম (Hisnul Muslim) Desktop
 
-[![Version](https://img.shields.io/badge/version-1.0.0-emerald.svg)](https://github.com/)
+[![Version](https://img.shields.io/badge/version-1.0.0-emerald.svg)](https://github.com/anumhosen/hisnul-muslim)
 [![Tauri](https://img.shields.io/badge/Tauri-v2-blue.svg)](https://tauri.app/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
 [![SQLite](https://img.shields.io/badge/Database-SQLite3-003b57.svg)](https://www.sqlite.org/)
+[![Publisher](https://img.shields.io/badge/Publisher-Anum%20Hosen-orange.svg)](mailto:anumhosen@gmail.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+<p align="center">
+  <img src="screenshot/home.PNG" alt="Hisnul Muslim Desktop Home Screen" width="100%" style="border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);" />
+</p>
 
 **হিসনুল মুসলিম (Hisnul Muslim)** হলো কুরআন ও সুন্নাহ ভিত্তিক দৈনন্দিন জীবনের সকল বিশুদ্ধ দু'আ ও জিকির সম্বলিত একটি আধুনিক, দ্রুত, এবং অত্যন্ত হালকা অফলাইন ডেক্সটপ অ্যাপ্লিকেশন।
 
@@ -52,19 +57,19 @@
    npm run tauri dev
    ```
 
-3. **প্রোডাকশন বিল্ড তৈরি করুন**:
+3. **প্রোডাকশন `.exe` ইনস্টলার তৈরি করুন**:
    ```bash
    npm run tauri build
    ```
-   *তৈরিকৃত প্যাকেজসমূহ (`.exe`, `.msi`, `.AppImage`, `.dmg`) `src-tauri/target/release/bundle/` ফোল্ডারে পাওয়া যাবে।*
+   *বিল্ড সম্পন্ন হলে একক ইনস্টলার `.exe` ফাইলটি `src-tauri/target/release/bundle/nsis/` ফোল্ডারে সংরক্ষিত হবে।*
 
 ---
 
-## 👨‍💻 ডেভলপার তথ্য (Developer Info)
+## 👨‍💻 লেখক ও প্রকাশক তথ্য (Author & Publisher)
 
-- **ডেভলপার**: Anum Hosen Shawon
+- **লেখক/প্রকাশক**: **Anum Hosen**
 - **ইনস্টিটিউট**: যোশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (JUST), পদার্থবিজ্ঞান বিভাগ
-- **ইমেইল**: anumhosen@gmail.com
+- **ইমেইল**: [anumhosen@gmail.com](mailto:anumhosen@gmail.com)
 - **ফেসবুক**: [Anum Hosen Shawon](https://www.facebook.com/anumhosen80/)
 - **ফ্রিল্যান্সার**: [@anumhosen](https://www.freelancer.com/u/anumhosen)
 
